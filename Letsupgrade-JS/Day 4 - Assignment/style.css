@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+}
+body{
+    background-color: coral;
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    margin-top: 13%;    
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+    background-color:crimson;
+    border-radius: 10px;
+    box-shadow: 15px 15px 25px darkred;
+}
+.name{
+    /* margin-bottom: 95px; */
+    height: 40px;
+    width: 350px;
+    border-radius: 33px;
+    padding: 0px 25px;
+} 
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}   
+.field h1{
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.field h2{
+    color: white;
+    text-align: center;
+}
+.field button{
+    color: wh…
